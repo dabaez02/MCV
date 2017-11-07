@@ -10,11 +10,19 @@ using System.Windows.Forms;
 
 namespace MCV
 {
-    public partial class Form1 : Form
+    public partial class mainSaleForm : Form
     {
-        public Form1()
+        public mainSaleForm()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+        }
+
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
