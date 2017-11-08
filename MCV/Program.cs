@@ -16,7 +16,7 @@ namespace MCV
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new mainSaleForm());
+            Application.Run(new providerButton());
         }
     }
 }
